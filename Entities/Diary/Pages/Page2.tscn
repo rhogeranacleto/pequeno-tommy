@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dq4t2p1mr68c4"]
+
+[node name="Page2" type="Node2D" unique_id=1983776848]
+
+[node name="Label" type="Label" parent="." unique_id=897293761]
+offset_right = 316.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 100
+text = "Pagina 2"

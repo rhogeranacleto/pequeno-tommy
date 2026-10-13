@@ -1,0 +1,21 @@
+[remap]
+
+importer="kra.importer"
+type="ImageTexture"
+uid="uid://5b7uvnnpd2bw"
+path="res://.godot/imported/Player.kra-42e66f42a8fb99e7ad56fe36c8572d18.res"
+
+[deps]
+
+files=["res://Entities/Player/Player.Leg.png", "res://Entities/Player/Player.Torso.png", "res://Entities/Player/Player.Head.png", "res://Entities/Player/Player.layers.json"]
+
+source_file="res://Entities/Player/Player.kra"
+dest_files=["res://.godot/imported/Player.kra-42e66f42a8fb99e7ad56fe36c8572d18.res", "res://Entities/Player/Player.Leg.png", "res://Entities/Player/Player.Torso.png", "res://Entities/Player/Player.Head.png", "res://Entities/Player/Player.layers.json"]
+
+[params]
+
+mode=1
+layers/include_hidden=false
+layers/crop_to_content=true
+atlas/columns=0
+atlas/padding=2

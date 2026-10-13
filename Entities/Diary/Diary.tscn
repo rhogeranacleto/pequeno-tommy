@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bdw7dvwd72ag0"]
+
+[ext_resource type="Script" uid="uid://dygmxhng552nb" path="res://Entities/Diary/Diary.gd" id="1_dbxqb"]
+[ext_resource type="Texture2D" uid="uid://cf6v356wmkjiu" path="res://Entities/Diary/Page.kra" id="1_isamf"]
+[ext_resource type="PackedScene" uid="uid://vdhxmocnoo36" path="res://Entities/Diary/Pages/Page1.tscn" id="2_2pjix"]
+[ext_resource type="PackedScene" uid="uid://dq4t2p1mr68c4" path="res://Entities/Diary/Pages/Page2.tscn" id="3_r7bwu"]
+[ext_resource type="PackedScene" uid="uid://bj583vvekwglo" path="res://Entities/Diary/Pages/Page3.tscn" id="4_fdwdw"]
+[ext_resource type="PackedScene" uid="uid://bxquwt2qmuxd4" path="res://Entities/Diary/Pages/Page4.tscn" id="5_gycis"]
+
+[node name="Diary" type="Control" unique_id=778345531]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_dbxqb")
+pages = Array[PackedScene]([ExtResource("2_2pjix"), ExtResource("3_r7bwu"), ExtResource("4_fdwdw"), ExtResource("5_gycis")])
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1626300420]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LeftPage" type="TextureRect" parent="HBoxContainer" unique_id=1833122876]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("1_isamf")
+
+[node name="RightPage" type="TextureRect" parent="HBoxContainer" unique_id=671548390]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("1_isamf")
+flip_h = true

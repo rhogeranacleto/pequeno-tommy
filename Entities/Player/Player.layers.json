@@ -1,0 +1,57 @@
+{
+	"canvas_size": [
+		512,
+		512
+	],
+	"layers": [
+		{
+			"file": "res://Entities/Player/Player.Leg.png",
+			"group": "",
+			"name": "Leg",
+			"offset": [
+				22,
+				48
+			],
+			"opacity": 1.0,
+			"size": [
+				13,
+				15
+			],
+			"visible": true,
+			"z_index": 1
+		},
+		{
+			"file": "res://Entities/Player/Player.Torso.png",
+			"group": "",
+			"name": "Torso",
+			"offset": [
+				9,
+				17
+			],
+			"opacity": 1.0,
+			"size": [
+				34,
+				30
+			],
+			"visible": true,
+			"z_index": 2
+		},
+		{
+			"file": "res://Entities/Player/Player.Head.png",
+			"group": "",
+			"name": "Head",
+			"offset": [
+				18,
+				3
+			],
+			"opacity": 1.0,
+			"size": [
+				18,
+				17
+			],
+			"visible": true,
+			"z_index": 3
+		}
+	],
+	"source": "res://Entities/Player/Player.kra"
+}

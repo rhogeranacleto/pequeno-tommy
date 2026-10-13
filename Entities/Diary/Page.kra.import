@@ -1,0 +1,14 @@
+[remap]
+
+importer="kra.importer"
+type="ImageTexture"
+uid="uid://cf6v356wmkjiu"
+path="res://.godot/imported/Page.kra-835a76c4ebaaff3481bc56c143b87dae.res"
+
+[deps]
+
+source_file="res://Entities/Diary/Page.kra"
+dest_files=["res://.godot/imported/Page.kra-835a76c4ebaaff3481bc56c143b87dae.res"]
+
+[params]
+
