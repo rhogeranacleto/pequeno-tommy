@@ -1,0 +1,24 @@
+[gd_resource type="TileSet" format=3 uid="uid://colsltinqr5d7"]
+
+[ext_resource type="Texture2D" uid="uid://ckslot642ppbt" path="res://kenney_sketch-town-expansion/Tiles/castle_towerGreenBase_E.png" id="1_gmfrl"]
+[ext_resource type="Texture2D" uid="uid://by7s57ayat567" path="res://kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_W.png" id="2_l4w4t"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7xlep"]
+texture = ExtResource("1_gmfrl")
+texture_region_size = Vector2i(64, 32)
+0:4/size_in_atlas = Vector2i(4, 7)
+0:4/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eui42"]
+texture = ExtResource("2_l4w4t")
+texture_region_size = Vector2i(64, 32)
+0:1/0 = 0
+0:5/size_in_atlas = Vector2i(4, 6)
+0:5/0 = 0
+
+[resource]
+tile_shape = 1
+tile_layout = 1
+tile_size = Vector2i(256, 128)
+sources/2 = SubResource("TileSetAtlasSource_7xlep")
+sources/3 = SubResource("TileSetAtlasSource_eui42")
