@@ -1,31 +1,34 @@
 [gd_scene format=3 uid="uid://c1hudgepgr1g0"]
 
-[ext_resource type="Texture2D" uid="uid://drip67xhqf816" path="res://Entities/Player/Player.Head.png" id="1_e5kic"]
-[ext_resource type="Texture2D" uid="uid://dsafatruribw6" path="res://Entities/Player/Player.Torso.png" id="1_vweq0"]
-[ext_resource type="Texture2D" uid="uid://dgeduxm53p6pa" path="res://Entities/Player/Player.Leg.png" id="3_1des2"]
+[ext_resource type="Script" uid="uid://dhu8nvb1e5mpv" path="res://Entities/Player/Player.gd" id="1_1des2"]
+[ext_resource type="Texture2D" uid="uid://dxsn1et3dwff8" path="res://Entities/Player/Player.Head.png" id="1_e5kic"]
+[ext_resource type="Texture2D" uid="uid://cv4s0hdh45rhn" path="res://Entities/Player/Player.Torso.png" id="1_vweq0"]
+[ext_resource type="Texture2D" uid="uid://ch46v45rfk5xf" path="res://Entities/Player/Player.Leg.png" id="3_1des2"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sol7v"]
-radius = 13.0
-height = 54.0
+radius = 17.0
+height = 74.0
 
 [node name="Player" type="CharacterBody2D" unique_id=859192462]
+collision_mask = 2
+script = ExtResource("1_1des2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1248942658]
-position = Vector2(0, -1)
+position = Vector2(1, 37)
+rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_sol7v")
-metadata/_edit_lock_ = true
 
 [node name="Torso" type="Sprite2D" parent="." unique_id=1383923666]
 texture = ExtResource("1_vweq0")
 
 [node name="Head" type="Sprite2D" parent="Torso" unique_id=799312233]
-position = Vector2(0, -20)
+position = Vector2(3, -42)
 texture = ExtResource("1_e5kic")
 
 [node name="LegR" type="Sprite2D" parent="Torso" unique_id=1775270957]
-position = Vector2(8, 20)
+position = Vector2(10, 40)
 texture = ExtResource("3_1des2")
 
 [node name="LegL" type="Sprite2D" parent="Torso" unique_id=274660991]
-position = Vector2(-7, 20)
+position = Vector2(-5, 40)
 texture = ExtResource("3_1des2")
