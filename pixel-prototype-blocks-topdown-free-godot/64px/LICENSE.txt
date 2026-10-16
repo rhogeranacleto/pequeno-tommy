@@ -1,0 +1,58 @@
+2D Pixel Prototype: Isometric Tileset 64px Godot - Licence
+Copyright (c) 2026 Mythryl Studio. All rights reserved.
+
+By downloading or purchasing this asset pack you are granted a
+worldwide, non-exclusive, non-transferable, perpetual licence to use
+its contents as follows. Mythryl Studio keeps ownership of the assets.
+
+YOU MAY
+
+  - Use the assets in any number of commercial or non-commercial
+    projects, including games, apps, videos, websites and other
+    media, and sell those projects.
+  - Modify, recolour, crop and combine the assets.
+  - Show the assets in trailers, store pages, screenshots, streams,
+    devlogs, tutorials and game jam entries for your projects.
+  - Share the assets with everyone working on the same project,
+    including team members, contractors and freelancers, for use in
+    that project only.
+  - Use the assets in projects for clients, as long as the client
+    does not receive the asset files in a form they can re-use
+    separately from the project.
+  - Include the assets in your project's files in the usual way for
+    your engine or platform.
+
+YOU MAY NOT
+
+  - Resell, redistribute, sublicense, share or give away the assets,
+    edited or not, except as part of a finished project that does
+    not offer them for separate re-use. This includes asset packs,
+    tilesets, sprite libraries, templates, starter kits, engine or
+    tool bundles, mod, texture or resource packs, stock asset sites,
+    and any app or tool that lets its users export the assets.
+  - Use the assets, or anything made from them, to train, fine-tune
+    or test any AI or machine-learning system, to build a dataset for
+    one, or as input, reference or style source for AI tools that
+    create images, animation or other content. AI tools that help you
+    write your project are fine, as long as the assets are never
+    given to them.
+  - Use the assets in trademarks or logos.
+  - Put the assets on physical goods for sale, such as prints,
+    merchandise, or board and card games, without written permission
+    from Mythryl Studio.
+  - Claim the assets as your own original work.
+
+CREDIT
+
+Credit is appreciated but not required:
+  "Art by Mythryl Studio" with a link to https://mythryl.com
+
+ENDING THE LICENCE
+
+If you break these terms, this licence ends and you must remove the
+assets from your projects and stop distributing them. Later changes
+to this licence do not apply to copies you already have.
+
+THE ASSETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO
+EVENT SHALL Mythryl Studio BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THE ASSETS.

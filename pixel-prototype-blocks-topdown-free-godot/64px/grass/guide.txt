@@ -1,0 +1,23 @@
+HOW THIS SET WORKS
+
+Isometric tiles on a 2:1 grid. Each cell is 64 x 32 px; a full block is 64 x 64 px, and each block up moves 32 px up the screen. A 64 px character stands two blocks tall.
+
+Pieces that take a colour come in 1 surface styles (flat), each in 1 colours (dirt). The rest keep their own colours.
+
+  blocks       10 pieces
+  ramps        7 pieces
+  stairs       4 pieces
+
+SHEETS
+
+Everything comes on grid sheets: style/colour/group.png, and objects/ for pieces in their own colours. Sheets are grids of 64 x 32 px cells. Each piece takes a block of whole cells and stands at its bottom-left; bigger pieces take more cells.
+
+FACINGS
+
+Turned pieces come in each facing: s, w, n, e, the way the front faces (for a slope or stairs, the low end). Signs and notes read correctly from every facing.
+
+GODOT 4
+
+The godot folder has a TileSet per surface style (flat.tres), each with every colour and the objects, and an example scene. Copy the whole download into your project: the TileSets find the sheets beside them. For crisp pixels, set Default Texture Filter to Nearest (Project Settings, under Textures).
+The TileSets are isometric (diamond down, 64 x 32 px). Each piece anchors on the front cell of its footprint. Stack levels as TileMapLayers, each moved up 32 px, with Y Sort on.
+Every tile carries its piece, group, facing and kind as custom data.

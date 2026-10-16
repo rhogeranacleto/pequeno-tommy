@@ -1,24 +1,38 @@
 [gd_resource type="TileSet" format=3 uid="uid://colsltinqr5d7"]
 
-[ext_resource type="Texture2D" uid="uid://ckslot642ppbt" path="res://kenney_sketch-town-expansion/Tiles/castle_towerGreenBase_E.png" id="1_gmfrl"]
-[ext_resource type="Texture2D" uid="uid://by7s57ayat567" path="res://kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_W.png" id="2_l4w4t"]
+[ext_resource type="Texture2D" uid="uid://dt8fbc4bfvft1" path="res://kenney_sketch-town-expansion/Tiles/castle_towerBrownBase_W.png" id="1_l4w4t"]
+[ext_resource type="Texture2D" uid="uid://c480asdt5yoej" path="res://kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_N.png" id="2_7xlep"]
+[ext_resource type="Texture2D" uid="uid://c6w0mep3xxd1w" path="res://kenney_sketch-town-expansion/Tiles/grass_block_E.png" id="3_eui42"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7xlep"]
-texture = ExtResource("1_gmfrl")
-texture_region_size = Vector2i(64, 32)
-0:4/size_in_atlas = Vector2i(4, 7)
-0:4/0 = 0
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6nuxb"]
+texture = ExtResource("1_l4w4t")
+margins = Vector2i(0, 96)
+texture_region_size = Vector2i(256, 128)
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 64)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eui42"]
-texture = ExtResource("2_l4w4t")
-texture_region_size = Vector2i(64, 32)
-0:1/0 = 0
-0:5/size_in_atlas = Vector2i(4, 6)
-0:5/0 = 0
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5eh2h"]
+texture = ExtResource("2_7xlep")
+margins = Vector2i(0, 96)
+texture_region_size = Vector2i(256, 128)
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 64)
+0:0/0/z_index = 1
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gy54y"]
+texture = ExtResource("3_eui42")
+margins = Vector2i(0, 96)
+texture_region_size = Vector2i(256, 128)
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -42)
 
 [resource]
 tile_shape = 1
-tile_layout = 1
+tile_layout = 4
 tile_size = Vector2i(256, 128)
-sources/2 = SubResource("TileSetAtlasSource_7xlep")
-sources/3 = SubResource("TileSetAtlasSource_eui42")
+sources/0 = SubResource("TileSetAtlasSource_6nuxb")
+sources/1 = SubResource("TileSetAtlasSource_5eh2h")
+sources/3 = SubResource("TileSetAtlasSource_gy54y")
